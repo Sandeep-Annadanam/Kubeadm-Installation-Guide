@@ -2,6 +2,10 @@
 
 # For ubuntu v22
 
+# Become root user to execute the following instruction 
+
+# to become a root user...use this command...$ sudo -i
+
 # Update the ubuntu system
 
 sudo apt-get update
@@ -49,6 +53,10 @@ systemctl daemon-reload
 systemctl enable cri-docker.service
 
 systemctl enable --now cri-docker.socket
+
+# come to root user home directory
+
+cd ~
 
 # Update the system
 
