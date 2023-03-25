@@ -54,6 +54,11 @@ systemctl enable cri-docker.service
 
 systemctl enable --now cri-docker.socket
 
+systemctl start cri-docker.service
+
+systemctl start --now cri-docker.socket
+
+
 # come to root user home directory
 
 cd ~
